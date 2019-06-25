@@ -1,0 +1,235 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "The Unknowns"
+
+# Metadata
+[params]
+  author = "The Unknowns"
+  description = "The Unknowns rock n roll since 1982..."
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/Profile Pic.jpg"
+  title = "The Unknowns"
+  description = "As the lights dim... <br> to focus with millions standing expecting… <br> The Unknown shadows  <br>The rehearsed years, <br> Glittering with life to the countless ears…"
+
+# Navigation section
+[params.nav]
+  mission = "About Us"
+  services = "Media"
+  team = "The Band"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "images/unknownspng.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/unknowns1.jpg"
+    [[params.mission.images.list]]
+      img = "images/unknowns4.jpg"
+    [[params.mission.images.list]]
+      img = "images/unknowns3.jpg"
+    [[params.mission.images.list]]
+      img = "images/unknowns2.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Profile"
+    subtitle = " "
+    description = "<p>The Unknowns as the name goes is a band that has lived music in the past, nurtures it in the present and will keep rolling the wheels on in the unknown future. The band has truly realized music to its very sense creating a deep unadulterated mark across audiences. Be it rock n’ roll, hard rock, Metal, Blues, Fusion, Pop, Indian the band has been blissfully disseminating the true sense and sincere feel to all the genres they have been playing during their performances. They generate a mood that alleviates its adience to an Unknown high. Off stage, they are a close circle of friends who just like to jam and live music emotionally to the core.  That’s The Unknowns… </p>"
+    #description = "<p>The Unknowns as the name goes is a band that has lived music in the past, nurtures it in the present and will keep rolling the wheels on in the unknown future. The band has truly realized music to its very sense creating a deep unadulterated mark across audiences. Be it rock n’ roll, hard rock, Metal, Blues, Fusion, Pop, Indian the band has been blissfully disseminating the true sense and sincere feel to all the genres they have been playing during their performances. As the members hit the stage and kick off with the numbers the audience in no time gets into a mood of absolute trance and blissful music. They generate a mood that alleviates both the band and its viewers to an Unknown high. All that remains when the show ends is a token of hysteric content that The Unknowns has been breeding across eras and generations in music. Off stage, they are a close circle of friends who just like to jam and live music emotionally to the core.  That’s The Unknowns… </p>"
+
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Years Active"
+    subtitle = "Past tours"
+    description = "  1982 - Present"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "bookings"
+    title = "Bookings"
+    subtitle = "Call Sam Deepak for bookings"
+    description = "<p> Phone: +91 966 350 6656 / +91 984 505 3648 <p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+ 
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://www.youtube.com/embed/5Jox6HqjEJE"
+  title = "Media"
+  description = "Follow us on social media."
+
+  [[params.services.item]]
+    icon = "icon-youtube"
+    title = "Youtube"
+    description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    url = "youtube"
+
+  [[params.services.item]]
+    icon = "icon-facebook"
+    title = "Facebook"
+    description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    url = "youtube"
+
+  [[params.services.item]]
+    icon = "icon-instagram"
+    title = "Instagram"
+    description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    url = "youtube"
+  
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/img_6.JPG"
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/img_5.JPG"
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/band/joe.jpg"
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/band/joe.jpg"
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/band/joe.jpg"
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/band/joe.jpg"
+
+  [[params.work.item]]
+    title = " "
+    subtitle = " "
+    img = "images/band/joe.jpg"
+  
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Band"
+  description = "  "
+
+  [[params.team.item]]
+    name = "Steve"
+    position = "Lead Guitar/Vocals"
+    description = " "
+    img = "images/band/Steve.jpg"
+    facebook = "#"
+    instagram = "#"
+
+  [[params.team.item]]
+    name = "Vineesh"
+    position = "Second Lead Guitar/Vocals"
+    description = " "
+    img = "images/band/Vineesh.jpeg"
+    facebook = "#"
+    instagram = "#"  
+       
+    
+  [[params.team.item]]
+    name = "Joshua"
+    position = "Bass Guitar/Vocals"
+    #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/band/Joe.jpg"
+    facebook = "#"
+    instagram = "#"
+    
+
+  [[params.team.item]]
+    name = "Gerard Leo Anthony"
+    position = "Rhythm Guitar/Vocals"
+    #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/band/Leo.jpg"
+    facebook = "#"
+    instagram = "#"
+   
+  [[params.team.item]]
+    name = "Johnny"
+    position = "Keyboard/Vocals"
+    #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/band/Johnny.jpg"
+    facebook = "#"
+    instagram = "#"
+   
+  [[params.team.item]]
+       name = "Sunil KS"
+       position = "Flute"
+       #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+       img = "images/band/Sunil KS.jpg"
+       facebook = "#"
+       instagram = "#"
+      
+   [[params.team.item]]
+       name = "Anthony Raj"
+       position = "Drums/Percussions"
+       #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+       img = "images/band/Anthu.jpg"
+       facebook = "#"
+       instagram = "#"
+      
+   [[params.team.item]]
+     name = "Sunil Steve"
+     position = "Drums/Bass Guitar"
+     #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+     img = "images/band/Sunil Steve.jpg"
+     facebook = "#"
+     instagram = "#"
+       
+   [[params.team.item]]
+      name = "Yogi"
+      position = "Sound Engineer"
+      #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+      img = "images/band/Yogi.jpg"
+      facebook = "#"
+      instagram = "#"      
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = " "
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "&copy; 2019 Property of the Unknowns"
+  facebook = "#"
+  instagram = "#"
+  youtube = "#"
