@@ -145,16 +145,16 @@ title = "The Unknowns"
     position = "Lead Guitar/Vocals"
     description = " "
     img = "images/band/Steve.jpg"
-    facebook = "#"
-    instagram = "#"
+    #facebook = "#"
+    #instagram = "#"
 
   [[params.team.item]]
     name = "Vineesh"
     position = "Second Lead Guitar/Vocals"
     description = " "
     img = "images/band/Vineesh.jpeg"
-    facebook = "#"
-    instagram = "#"  
+    #facebook = "#"
+    #instagram = "#"  
        
     
   [[params.team.item]]
@@ -162,8 +162,8 @@ title = "The Unknowns"
     position = "Bass Guitar/Vocals"
     #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/band/Joe.jpg"
-    facebook = "#"
-    instagram = "#"
+    #facebook = "#"
+    #instagram = "#"
     
 
   [[params.team.item]]
@@ -171,48 +171,48 @@ title = "The Unknowns"
     position = "Rhythm Guitar/Vocals"
     #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/band/Leo.jpg"
-    facebook = "#"
-    instagram = "#"
+    #facebook = "#"
+    #instagram = "#"
    
   [[params.team.item]]
     name = "Johnny"
     position = "Keyboard/Vocals"
     #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/band/Johnny.jpg"
-    facebook = "#"
-    instagram = "#"
+    #facebook = "#"
+    #instagram = "#"
    
   [[params.team.item]]
        name = "Sunil KS"
        position = "Flute"
        #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
        img = "images/band/Sunil KS.jpg"
-       facebook = "#"
-       instagram = "#"
+       #facebook = "#"
+       #instagram = "#"
       
    [[params.team.item]]
        name = "Anthony Raj"
        position = "Drums/Percussions"
        #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
        img = "images/band/Anthu.jpg"
-       facebook = "#"
-       instagram = "#"
+       #facebook = "#"
+       #instagram = "#"
       
    [[params.team.item]]
      name = "Sunil Steve"
      position = "Drums/Bass Guitar"
      #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
      img = "images/band/Sunil Steve.jpg"
-     facebook = "#"
-     instagram = "#"
+     #facebook = "#"
+     #instagram = "#"
        
    [[params.team.item]]
       name = "Yogi"
       position = "Sound Engineer"
       #description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
       img = "images/band/Yogi.jpg"
-      facebook = "#"
-      instagram = "#"      
+      #facebook = "#"
+      #instagram = "#"      
 
 # Contact section
 [params.contact]
