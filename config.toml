@@ -75,19 +75,19 @@ title = "The Unknowns"
     icon = "icon-youtube"
     title = "Youtube"
     description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    url = "youtube"
+    url = "https://www.youtube.com/channel/UCmkQReBcvyODprQ6QWBwxZA"
 
   [[params.services.item]]
     icon = "icon-facebook"
     title = "Facebook"
     description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    url = "youtube"
+    url = "https://www.facebook.com/TheUnknownsbangalore/"
 
   [[params.services.item]]
     icon = "icon-instagram"
     title = "Instagram"
     description = "Lorem ipsum dolor sit amet   elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    url = "youtube"
+    url = "https://www.instagram.com/theunknowns_band/"
   
 # Work section
 [params.work]
@@ -230,6 +230,6 @@ title = "The Unknowns"
 [params.footer]
   enable = true
   note = "&copy; 2019 Property of the Unknowns"
-  facebook = "#"
-  instagram = "#"
+  facebook = "https://www.facebook.com/TheUnknownsbangalore/"
+  instagram = "https://www.instagram.com/theunknowns_band/"
   youtube = "#"
